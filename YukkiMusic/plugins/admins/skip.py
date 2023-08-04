@@ -28,7 +28,8 @@ SKIP_COMMAND = get_command("SKIP_COMMAND")
 
 
 @app.on_message(
-    filters.command(SKIP_COMMAND)
+    filters.command(["skip", "تخطي", "ت"]) | filters.command(["تخطي","تخط"],prefixes= ["/", "!","","#"])
+
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
