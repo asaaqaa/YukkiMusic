@@ -1,0 +1,83 @@
+{
+    "name": "music Bot - ميوزگ سهى ",
+    "description": "أهـلًا بـك عــزيـزي من هـنا يمكنـك تــنـصـيب بوت تشغيل  المقاطع في المحـادثـات الـصـوتـيـة",
+    "logo": "https://telegra.ph/file/d43298f27a41133786d1f.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "AnonX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "قـم باسـتـخراج الأيبي أيدي من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "قـم بـاسـتخراج أيبي هاش من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "يـجـب عليك اسـتـخراج توكـن البوت من @Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "لا تعبث بالرابط https://cloud.mongodb.com.",
+        "value": "mongodb+srv://SEMO1:SEMO1@cluster0.rusaedi.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "اسـم البــبوت",
+        "value": " ميوزگ سهۍ",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "الأيدي الخاص بك .",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "جـلسـة البايروجـرام استخرجها من هنا @TepthonSessionBot",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "الأيبي كي الخاص بك",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اسم التطبيق الذي وضعته فوق",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "ايـدي مـجمـوعة التـخـزيـن يجب عليك إضافـة الحـسـاب المـساعد والبوت في المـجموعـة ورفعهما مشرفان",
+        "value": "",
+        "required": true
+      },
+       "UPSTREAM_REPO": {
+        "description": "If you dont know this, Leave as it is",
+        "value": "https://github.com/asaaqaa/QuranBot",
+        "required": true
+     } 
+      },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
