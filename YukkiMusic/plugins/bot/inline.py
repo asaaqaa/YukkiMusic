@@ -47,7 +47,7 @@ async def inline_query_handler(client, query):
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch on Youtube",
+                            text="🎥 شاهد على اليوتيوب",
                             url=link,
                         )
                     ],
@@ -62,7 +62,7 @@ async def inline_query_handler(client, query):
 🎥**Channel Name:** {channel}
 📎**Channel Link:** [Visit From Here]({channellink})
 
-__Reply with /play on this searched message to stream it on voice chat.__
+__اكتب تشغيل بالرد على الاغنية لتشغيلها علۍ المكالمه.__
 
 ⚡️ ** Inline Search By {MUSIC_BOT_NAME} **"""
             answers.append(
