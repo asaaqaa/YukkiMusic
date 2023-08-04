@@ -27,11 +27,6 @@
         "value": "",
         "required": true
       },
-      "MONGO_DB_URI": {
-        "description": "لا تعبث بالرابط https://cloud.mongodb.com.",
-        "value": "mongodb+srv://SEMO1:SEMO1@cluster0.rusaedi.mongodb.net/?retryWrites=true&w=majority",
-        "required": true
-      },
       "MUSIC_BOT_NAME": {
         "description": "اسـم البــبوت",
         "value": " ميوزگ سهۍ",
