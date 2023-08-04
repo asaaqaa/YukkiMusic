@@ -6,7 +6,7 @@
     "python3",
     "telegram",
     "bot",
-    "AnonX",
+    "YukkiMusic",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "اسـم البــبوت",
-        "value": " ميوزگ سهۍ",
+        "value": "music",
         "required": true
       },
       "OWNER_ID": {
@@ -64,7 +64,7 @@
       },
        "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/asaaqaa/QuranBot",
+        "value": "https://github.com/asaaqaa/YukkiMusic",
         "required": true
      } 
       },
