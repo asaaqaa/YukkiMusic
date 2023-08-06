@@ -1,4 +1,4 @@
-#
+#تعريب الامبراطور اليسع 
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
 # This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
@@ -30,7 +30,7 @@ from YukkiMusic.utils.database import (get_active_chats,
 from YukkiMusic.utils.decorators.language import language
 from YukkiMusic.utils.formatters import alpha_to_int
 
-BROADCAST_COMMAND = get_command(["broadcast", "اذاعه", "ذيع"])
+BROADCAST_COMMAND = get_command(["BROADCAST_COMMAND",""])
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS
 AUTO_SLEEP = 5
 IS_BROADCASTING = False
